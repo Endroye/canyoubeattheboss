@@ -1,34 +1,34 @@
 {
     "title": "Can You Beat The Boss?",
     "boss": {
-        "current_hp": 2462,
+        "current_hp": 1962,
         "base_hp": 3062,
         "status": "Alive"
     },
     "leaderboard": [
         {
             "rank": 1,
+            "user": "nko.rdj",
+            "damage": 500
+        },
+        {
+            "rank": 2,
             "user": "Maksymilian Zarebski",
             "damage": 200
         },
         {
-            "rank": 2,
+            "rank": 3,
             "user": "Sabani.er",
             "damage": 200
         },
         {
-            "rank": 3,
+            "rank": 4,
             "user": "U\u00c7K",
             "damage": 200
         },
         {
-            "rank": 4,
-            "user": "cedricvin",
-            "damage": 0
-        },
-        {
             "rank": 5,
-            "user": "\u269d\ud835\udd86\ud835\udd97\ud835\udd99\ud835\udd8a\ud835\udd97\ud835\udd8e\ud835\udd86\ud835\udd91\u269d",
+            "user": "cedricvin",
             "damage": 0
         }
     ]
