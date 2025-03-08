@@ -1,7 +1,7 @@
 {
     "title": "Can You Beat The Boss?",
     "boss": {
-        "current_hp": 2662,
+        "current_hp": 2562,
         "base_hp": 3062,
         "status": "Alive"
     },
@@ -15,6 +15,11 @@
             "rank": 2,
             "user": "Sabani.er",
             "damage": 200
+        },
+        {
+            "rank": 3,
+            "user": "U\u00c7K",
+            "damage": 100
         }
     ]
 }
