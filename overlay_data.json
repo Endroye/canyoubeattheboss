@@ -1,15 +1,15 @@
 {
     "title": "Can You Beat The Boss?",
     "boss": {
-        "current_hp": 552,
-        "base_hp": 2552,
+        "current_hp": 2862,
+        "base_hp": 3062,
         "status": "Alive"
     },
     "leaderboard": [
         {
             "rank": 1,
             "user": "Maksymilian Zarebski",
-            "damage": 2000
+            "damage": 200
         }
     ]
 }
