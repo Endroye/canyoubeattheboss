@@ -1,7 +1,7 @@
 {
     "title": "Can You Beat The Boss?",
     "boss": {
-        "current_hp": 1762,
+        "current_hp": 1662,
         "base_hp": 3062,
         "status": "Alive"
     },
@@ -29,7 +29,7 @@
         {
             "rank": 5,
             "user": "Lucio Loco",
-            "damage": 100
+            "damage": 200
         }
     ]
 }
