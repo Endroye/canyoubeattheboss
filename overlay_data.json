@@ -1,8 +1,8 @@
 {
     "title": "Can You Beat The Boss?",
     "boss": {
-        "current_hp": 45,
-        "base_hp": 345,
+        "current_hp": 214,
+        "base_hp": 714,
         "status": "Alive"
     },
     "leaderboard": [
@@ -10,6 +10,11 @@
             "rank": 1,
             "user": "Sabani.er",
             "damage": 300
+        },
+        {
+            "rank": 2,
+            "user": "Maksymilian Zarebski",
+            "damage": 200
         }
     ]
 }
