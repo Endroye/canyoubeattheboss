@@ -4,9 +4,15 @@
         "current_hp": 345,
         "base_hp": 345,
         "status": "Alive",
-        "background": "backgrounds/ancient_dragon.png"
+        "background": "backgrounds/boss4.png"
     },
-    "leaderboard": [],
+    "leaderboard": [
+        {
+            "rank": 1,
+            "user": ".13",
+            "damage": 0
+        }
+    ],
     "all_time_leaderboard": [
         {
             "rank": 1,
