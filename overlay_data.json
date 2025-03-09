@@ -1,9 +1,15 @@
 {
     "title": "Can You Beat The Boss?",
     "boss": {
-        "current_hp": 200,
+        "current_hp": 100,
         "base_hp": 200,
         "status": "Alive"
     },
-    "leaderboard": []
+    "leaderboard": [
+        {
+            "rank": 1,
+            "user": "elias666.666",
+            "damage": 100
+        }
+    ]
 }
