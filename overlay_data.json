@@ -5,6 +5,18 @@
         "base_hp": 200,
         "status": "Alive"
     },
-    "leaderboard": [],
-    "all_time_leaderboard": []
+    "leaderboard": [
+        {
+            "rank": 1,
+            "user": "\ud83d\udda4\ud83e\udd0eAthena\u2019s Destiny \ud83e\udd0d\ud83e\ude75",
+            "damage": 0
+        }
+    ],
+    "all_time_leaderboard": [
+        {
+            "rank": 1,
+            "user": "\ud83d\udda4\ud83e\udd0eAthena\u2019s Destiny \ud83e\udd0d\ud83e\ude75",
+            "damage": 0
+        }
+    ]
 }
