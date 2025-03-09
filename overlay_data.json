@@ -11,12 +11,22 @@
             "rank": 1,
             "user": "\ud83c\uddf5\ud83c\uddf7 Bronx.Diva \ud83d\udc85\ud83d\udc3b",
             "damage": 0
+        },
+        {
+            "rank": 2,
+            "user": "u_tripping_out",
+            "damage": 0
         }
     ],
     "all_time_leaderboard": [
         {
             "rank": 1,
             "user": "\ud83c\uddf5\ud83c\uddf7 Bronx.Diva \ud83d\udc85\ud83d\udc3b",
+            "damage": 0
+        },
+        {
+            "rank": 2,
+            "user": "u_tripping_out",
             "damage": 0
         }
     ]
