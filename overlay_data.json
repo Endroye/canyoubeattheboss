@@ -1,10 +1,10 @@
 {
     "title": "Can You Beat The Boss?",
     "boss": {
-        "current_hp": 396,
-        "base_hp": 496,
+        "current_hp": 614,
+        "base_hp": 714,
         "status": "Alive",
-        "background": "backgrounds/boss6.png"
+        "background": "backgrounds/boss8.png"
     },
     "leaderboard": [
         {
@@ -17,12 +17,12 @@
         {
             "rank": 1,
             "user": "kawxfr",
-            "damage": 1600
+            "damage": 2400
         },
         {
             "rank": 2,
             "user": "Tydifferent",
-            "damage": 200
+            "damage": 500
         },
         {
             "rank": 3,
