@@ -11,12 +11,22 @@
             "rank": 1,
             "user": "\u2112\u212f\u2134\ud835\udcc3\ud835\udcbe\u212f \ud83e\udd8b",
             "damage": 0
+        },
+        {
+            "rank": 2,
+            "user": "\ud835\udc3f\ud835\udc62\ud835\udc4e \ud835\udc43\ud835\udc5f\ud835\udc5c\ud835\udc5d\ud835\udc52\ud835\udc59\ud835\udc59\ud835\udc66\ud83d\udc2d",
+            "damage": 0
         }
     ],
     "all_time_leaderboard": [
         {
             "rank": 1,
             "user": "\u2112\u212f\u2134\ud835\udcc3\ud835\udcbe\u212f \ud83e\udd8b",
+            "damage": 0
+        },
+        {
+            "rank": 2,
+            "user": "\ud835\udc3f\ud835\udc62\ud835\udc4e \ud835\udc43\ud835\udc5f\ud835\udc5c\ud835\udc5d\ud835\udc52\ud835\udc59\ud835\udc59\ud835\udc66\ud83d\udc2d",
             "damage": 0
         }
     ]
