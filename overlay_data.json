@@ -4,7 +4,7 @@
         "current_hp": 314,
         "base_hp": 414,
         "status": "Alive",
-        "background": "/backgrounds/boss5.png"
+        "background": "backgrounds/boss5.png"
     },
     "leaderboard": [
         {
