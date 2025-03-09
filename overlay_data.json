@@ -1,35 +1,35 @@
 {
     "title": "Can You Beat The Boss?",
     "boss": {
-        "current_hp": 582,
-        "base_hp": 3062,
+        "current_hp": 1174,
+        "base_hp": 3674,
         "status": "Alive"
     },
     "leaderboard": [
         {
             "rank": 1,
-            "user": "User28",
+            "user": "User14",
             "damage": 500
         },
         {
             "rank": 2,
-            "user": "User21",
+            "user": "User18",
             "damage": 250
         },
         {
             "rank": 3,
-            "user": "User40",
+            "user": "User43",
             "damage": 250
         },
         {
             "rank": 4,
-            "user": "User48",
-            "damage": 250
+            "user": "User24",
+            "damage": 150
         },
         {
             "rank": 5,
-            "user": "User50",
-            "damage": 250
+            "user": "User45",
+            "damage": 150
         }
     ]
 }
