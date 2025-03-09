@@ -1,7 +1,7 @@
 {
     "title": "Can You Beat The Boss?",
     "boss": {
-        "current_hp": 188,
+        "current_hp": 88,
         "base_hp": 288,
         "status": "Alive",
         "background": "backgrounds/ancient_dragon.png"
@@ -10,14 +10,14 @@
         {
             "rank": 1,
             "user": "Kursad Akman",
-            "damage": 100
+            "damage": 200
         }
     ],
     "all_time_leaderboard": [
         {
             "rank": 1,
             "user": "Kursad Akman",
-            "damage": 600
+            "damage": 700
         }
     ]
 }
