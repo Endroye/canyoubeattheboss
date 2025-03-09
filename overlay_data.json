@@ -4,14 +4,25 @@
         "current_hp": 414,
         "base_hp": 414,
         "status": "Alive",
-        "background": "backgrounds/boss4.png"
+        "background": "backgrounds/boss5.png"
     },
-    "leaderboard": [],
+    "leaderboard": [
+        {
+            "rank": 1,
+            "user": "nottangeliquee",
+            "damage": 0
+        }
+    ],
     "all_time_leaderboard": [
         {
             "rank": 1,
             "user": "Tydifferent",
             "damage": 1200
+        },
+        {
+            "rank": 2,
+            "user": "nottangeliquee",
+            "damage": 0
         }
     ]
 }
