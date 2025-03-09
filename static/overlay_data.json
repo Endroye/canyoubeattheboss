@@ -6,6 +6,18 @@
         "status": "Alive",
         "background": "backgrounds/fire_demon.png"
     },
-    "leaderboard": [],
-    "all_time_leaderboard": []
+    "leaderboard": [
+        {
+            "rank": 1,
+            "user": "\u2112\u212f\u2134\ud835\udcc3\ud835\udcbe\u212f \ud83e\udd8b",
+            "damage": 0
+        }
+    ],
+    "all_time_leaderboard": [
+        {
+            "rank": 1,
+            "user": "\u2112\u212f\u2134\ud835\udcc3\ud835\udcbe\u212f \ud83e\udd8b",
+            "damage": 0
+        }
+    ]
 }
