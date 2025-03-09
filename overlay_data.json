@@ -16,6 +16,11 @@
             "rank": 2,
             "user": "Gevel Cruz",
             "damage": 0
+        },
+        {
+            "rank": 3,
+            "user": "Ashley \ud83e\udd40",
+            "damage": 0
         }
     ],
     "all_time_leaderboard": [
@@ -27,6 +32,11 @@
         {
             "rank": 2,
             "user": "Gevel Cruz",
+            "damage": 0
+        },
+        {
+            "rank": 3,
+            "user": "Ashley \ud83e\udd40",
             "damage": 0
         }
     ]
