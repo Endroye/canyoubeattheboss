@@ -5,11 +5,5 @@
         "base_hp": 200,
         "status": "Alive"
     },
-    "leaderboard": [
-        {
-            "rank": 1,
-            "user": "Max",
-            "damage": 0
-        }
-    ]
+    "leaderboard": []
 }
