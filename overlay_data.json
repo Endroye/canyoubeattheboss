@@ -4,9 +4,15 @@
         "current_hp": 288,
         "base_hp": 288,
         "status": "Alive",
-        "background": "backgrounds/dark_knight.png"
+        "background": "backgrounds/ancient_dragon.png"
     },
-    "leaderboard": [],
+    "leaderboard": [
+        {
+            "rank": 1,
+            "user": "George Dominguez",
+            "damage": 0
+        }
+    ],
     "all_time_leaderboard": [
         {
             "rank": 1,
@@ -26,6 +32,11 @@
         {
             "rank": 4,
             "user": "u_tripping_out",
+            "damage": 0
+        },
+        {
+            "rank": 5,
+            "user": "George Dominguez",
             "damage": 0
         }
     ]
