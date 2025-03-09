@@ -62,10 +62,7 @@ def get_current_boss_type():
 # Possible gifts and their damage
 GIFT_VALUES = {
     "Rose": 100,
-    "TikTok Universe": 500,
-    "Diamond": 250,
-    "Angel": 150,
-    "Love": 50
+
 }
 
 # --- XP Function ---
