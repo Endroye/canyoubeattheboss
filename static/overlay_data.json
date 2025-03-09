@@ -1,37 +1,11 @@
 {
     "title": "Can You Beat The Boss?",
     "boss": {
-        "current_hp": 414,
-        "base_hp": 414,
+        "current_hp": 200,
+        "base_hp": 200,
         "status": "Alive",
-        "background": "backgrounds/boss4.png"
+        "background": "backgrounds/fire_demon.png"
     },
     "leaderboard": [],
-    "all_time_leaderboard": [
-        {
-            "rank": 1,
-            "user": "\u2112\u212f\u2134\ud835\udcc3\ud835\udcbe\u212f \ud83e\udd8b",
-            "damage": 600
-        },
-        {
-            "rank": 2,
-            "user": "\ud835\udcee\ud835\udcf5\ud835\udcf5\ud835\udcee\ud835\udcf7\u271d\ufe0f",
-            "damage": 600
-        },
-        {
-            "rank": 3,
-            "user": "\ud835\udc3f\ud835\udc62\ud835\udc4e \ud835\udc43\ud835\udc5f\ud835\udc5c\ud835\udc5d\ud835\udc52\ud835\udc59\ud835\udc59\ud835\udc66\ud83d\udc2d",
-            "damage": 0
-        },
-        {
-            "rank": 4,
-            "user": "musik_tonstudio",
-            "damage": 0
-        },
-        {
-            "rank": 5,
-            "user": "sophiee \ud83e\udd8b",
-            "damage": 0
-        }
-    ]
+    "all_time_leaderboard": []
 }
