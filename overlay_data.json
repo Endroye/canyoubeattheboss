@@ -6,6 +6,18 @@
         "status": "Alive",
         "background": "backgrounds/fire_demon.png"
     },
-    "leaderboard": [],
-    "all_time_leaderboard": []
+    "leaderboard": [
+        {
+            "rank": 1,
+            "user": "Tydifferent",
+            "damage": 0
+        }
+    ],
+    "all_time_leaderboard": [
+        {
+            "rank": 1,
+            "user": "Tydifferent",
+            "damage": 0
+        }
+    ]
 }
