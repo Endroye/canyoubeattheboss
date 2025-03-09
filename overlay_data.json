@@ -10,12 +10,22 @@
             "rank": 1,
             "user": "\ud83d\udda4\ud83e\udd0eAthena\u2019s Destiny \ud83e\udd0d\ud83e\ude75",
             "damage": 0
+        },
+        {
+            "rank": 2,
+            "user": "\ud800\udc14Ackley\ud83e\uddc1",
+            "damage": 0
         }
     ],
     "all_time_leaderboard": [
         {
             "rank": 1,
             "user": "\ud83d\udda4\ud83e\udd0eAthena\u2019s Destiny \ud83e\udd0d\ud83e\ude75",
+            "damage": 0
+        },
+        {
+            "rank": 2,
+            "user": "\ud800\udc14Ackley\ud83e\uddc1",
             "damage": 0
         }
     ]
