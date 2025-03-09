@@ -11,12 +11,22 @@
             "rank": 1,
             "user": "stakkzxfn",
             "damage": 0
+        },
+        {
+            "rank": 2,
+            "user": "karmy",
+            "damage": 0
         }
     ],
     "all_time_leaderboard": [
         {
             "rank": 1,
             "user": "stakkzxfn",
+            "damage": 0
+        },
+        {
+            "rank": 2,
+            "user": "karmy",
             "damage": 0
         }
     ]
