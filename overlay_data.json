@@ -1,11 +1,23 @@
 {
     "title": "Can You Beat The Boss?",
     "boss": {
-        "current_hp": 200,
-        "base_hp": 200,
+        "current_hp": 145,
+        "base_hp": 345,
         "status": "Alive",
-        "background": "backgrounds/fire_demon.png"
+        "background": "backgrounds/boss4.png"
     },
-    "leaderboard": [],
-    "all_time_leaderboard": []
+    "leaderboard": [
+        {
+            "rank": 1,
+            "user": "Tydifferent",
+            "damage": 200
+        }
+    ],
+    "all_time_leaderboard": [
+        {
+            "rank": 1,
+            "user": "Tydifferent",
+            "damage": 1000
+        }
+    ]
 }
