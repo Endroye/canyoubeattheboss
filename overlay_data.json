@@ -1,7 +1,7 @@
 {
     "title": "Can You Beat The Boss?",
     "boss": {
-        "current_hp": 314,
+        "current_hp": 114,
         "base_hp": 414,
         "status": "Alive",
         "background": "backgrounds/boss5.png"
@@ -9,27 +9,27 @@
     "leaderboard": [
         {
             "rank": 1,
+            "user": "Noah",
+            "damage": 200
+        },
+        {
+            "rank": 2,
             "user": "ShelovesJames",
             "damage": 100
         },
         {
-            "rank": 2,
+            "rank": 3,
             "user": "Danny",
             "damage": 0
         },
         {
-            "rank": 3,
+            "rank": 4,
             "user": "u_tripping_out",
             "damage": 0
         },
         {
-            "rank": 4,
-            "user": "tsk_pajaro",
-            "damage": 0
-        },
-        {
             "rank": 5,
-            "user": "Hai Fren",
+            "user": "tsk_pajaro",
             "damage": 0
         }
     ],
@@ -56,8 +56,8 @@
         },
         {
             "rank": 5,
-            "user": "brucesnipz\ud83e\udd6d",
-            "damage": 0
+            "user": "Noah",
+            "damage": 200
         }
     ]
 }
