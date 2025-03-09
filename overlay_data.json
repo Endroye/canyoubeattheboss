@@ -1,53 +1,11 @@
 {
     "title": "Can You Beat The Boss?",
     "boss": {
-        "current_hp": 288,
-        "base_hp": 288,
+        "current_hp": 200,
+        "base_hp": 200,
         "status": "Alive",
-        "background": "backgrounds/ancient_dragon.png"
+        "background": "backgrounds/fire_demon.png"
     },
-    "leaderboard": [
-        {
-            "rank": 1,
-            "user": "George Dominguez",
-            "damage": 0
-        },
-        {
-            "rank": 2,
-            "user": "starqueen",
-            "damage": 0
-        },
-        {
-            "rank": 3,
-            "user": "brucesnipz\ud83e\udd6d",
-            "damage": 0
-        }
-    ],
-    "all_time_leaderboard": [
-        {
-            "rank": 1,
-            "user": "Tomo",
-            "damage": 300
-        },
-        {
-            "rank": 2,
-            "user": "lochlan",
-            "damage": 200
-        },
-        {
-            "rank": 3,
-            "user": "\ud83c\uddf5\ud83c\uddf7 Bronx.Diva \ud83d\udc85\ud83d\udc3b",
-            "damage": 0
-        },
-        {
-            "rank": 4,
-            "user": "u_tripping_out",
-            "damage": 0
-        },
-        {
-            "rank": 5,
-            "user": "George Dominguez",
-            "damage": 0
-        }
-    ]
+    "leaderboard": [],
+    "all_time_leaderboard": []
 }
