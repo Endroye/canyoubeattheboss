@@ -1,32 +1,31 @@
 {
     "title": "Can You Beat The Boss?",
     "boss": {
-        "current_hp": 240,
-        "base_hp": 240,
+        "current_hp": 345,
+        "base_hp": 345,
         "status": "Alive",
-        "background": "backgrounds/dark_knight.png"
+        "background": "backgrounds/ancient_dragon.png"
     },
-    "leaderboard": [
-        {
-            "rank": 1,
-            "user": "brucesnipz\ud83e\udd6d",
-            "damage": 0
-        }
-    ],
+    "leaderboard": [],
     "all_time_leaderboard": [
         {
             "rank": 1,
-            "user": "lochlan",
-            "damage": 100
+            "user": ".13",
+            "damage": 600
         },
         {
             "rank": 2,
-            "user": ".13",
-            "damage": 100
+            "user": "lochlan",
+            "damage": 200
         },
         {
             "rank": 3,
             "user": "brucesnipz\ud83e\udd6d",
+            "damage": 0
+        },
+        {
+            "rank": 4,
+            "user": "Monkey\ud83d\udc12  Boy\ud83d\udc68\ud83c\udfff\u200d\ud83c\udf3e",
             "damage": 0
         }
     ]
