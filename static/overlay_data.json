@@ -6,6 +6,48 @@
         "status": "Alive",
         "background": "backgrounds/fire_demon.png"
     },
-    "leaderboard": [],
-    "all_time_leaderboard": []
+    "leaderboard": [
+        {
+            "rank": 1,
+            "user": "Julian",
+            "damage": 0
+        },
+        {
+            "rank": 2,
+            "user": "Marco",
+            "damage": 0
+        },
+        {
+            "rank": 3,
+            "user": "\ud83d\udd25 Lifestyle of me \ud83d\udd25",
+            "damage": 0
+        },
+        {
+            "rank": 4,
+            "user": "Sophie",
+            "damage": 0
+        }
+    ],
+    "all_time_leaderboard": [
+        {
+            "rank": 1,
+            "user": "Julian",
+            "damage": 0
+        },
+        {
+            "rank": 2,
+            "user": "Marco",
+            "damage": 0
+        },
+        {
+            "rank": 3,
+            "user": "\ud83d\udd25 Lifestyle of me \ud83d\udd25",
+            "damage": 0
+        },
+        {
+            "rank": 4,
+            "user": "Sophie",
+            "damage": 0
+        }
+    ]
 }
