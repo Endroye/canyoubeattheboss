@@ -1,7 +1,7 @@
 {
     "title": "Can You Beat The Boss?",
     "boss": {
-        "current_hp": 140,
+        "current_hp": 40,
         "base_hp": 240,
         "status": "Alive",
         "background": "backgrounds/dark_knight.png"
@@ -10,14 +10,14 @@
         {
             "rank": 1,
             "user": "kawxfr",
-            "damage": 100
+            "damage": 200
         }
     ],
     "all_time_leaderboard": [
         {
             "rank": 1,
             "user": "kawxfr",
-            "damage": 300
+            "damage": 400
         },
         {
             "rank": 2,
