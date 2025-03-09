@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Boss Info</title>
+  <style>
+    body {
+      background: transparent;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      text-align: center;
+      /* Du kannst hier ggf. ein fixes Minimale Size definieren */
+    }
+    #title {
+      font-size: 40px;
+      margin-top: 10px;
+
+    }
+    .boss-info {
+      font-size: 25px;
+      margin: 10px auto;
+    }
+    .boss-bar-container {
+      width: 200px; /* Passe an */
+      background-color: rgba(0,0,0,0.6);
+      margin: 0 auto 20px auto;
+      border-radius: 15px;
+      overflow: hidden;
+      height: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .boss-bar {
+      height: 100%;
+      background: linear-gradient(90deg, #ff4d4d, #990000);
+      transition: width 1s ease-in-out;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="title">Loading...</h1>
+
+
+  <div class="boss-info" id="boss-info">HP: --/-- (--)%</div>
+  <div class="boss-bar-container">
+    <div id="boss-hp" class="boss-bar"></div>
+  </div>
+
+  <script>
+    async function updateBossInfo() {
+      try {
+        // Passe die URL an, falls nötig (z. B. "overlay_data.json")
+        const response = await fetch('/static/overlay_data.json');
+        const data = await response.json();
+
+        // Titel
+        document.getElementById('title').textContent = data.title;
+
+        // Boss-Daten
+        const boss = data.boss;
+        const currentHP = boss.current_hp;
+        const baseHP = boss.base_hp;
+        const hpPercent = Math.round((currentHP / baseHP) * 100);
+
+
+        // HP-Anzeige
+        document.getElementById('boss-info').textContent = `HP: ${currentHP}/${baseHP} (${hpPercent}%)`;
+        document.getElementById('boss-hp').style.width = hpPercent + '%';
+      } catch (e) {
+        console.error("Error loading boss info:", e);
+      }
+    }
+
+    updateBossInfo();
+    setInterval(updateBossInfo, 3000);
+  </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Boss Background</title>
+  <style>
+    body {
+      background: transparent;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+    #boss-background {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <img id="boss-background" src="" alt="Boss Background">
+  <script>
+    async function updateBossBackground() {
+      try {
+        // Da overlay_data.json jetzt im static-Ordner liegt, rufe ihn über /static/overlay_data.json auf:
+        const response = await fetch('/static/overlay_data.json');
+        const data = await response.json();
+        // data.boss.background enthält z. B. "backgrounds/boss11.png"
+        // Wir müssen den Pfad so setzen, dass er "/static/backgrounds/boss11.png" ergibt.
+        const bgPath = data.boss.background || "";
+        document.getElementById('boss-background').src = '/static/' + bgPath;
+      } catch (err) {
+        console.error("Error loading boss background:", err);
+      }
+    }
+    updateBossBackground();
+    setInterval(updateBossBackground, 3000);
+  </script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Current Leaderboard</title>
+  <style>
+    body {
+      background: transparent;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    #leaderboard {
+      font-size: 30px;
+      background-color: rgba(0,0,0,0.6);
+      padding: 20px;
+      border-radius: 15px;
+      width: 300px; /* Passe nach Belieben an */
+      margin: 20px auto;
+      text-align: center;
+    }
+    h2 {
+      margin: 0 0 10px 0;
+    }
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      margin: 8px 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="leaderboard">
+    <h2>Current Leaderboard</h2>
+    <ul id="leaderboard-list">
+      <li>Loading...</li>
+    </ul>
+  </div>
+
+  <script>
+    async function updateCurrentLeaderboard() {
+      try {
+      const response = await fetch('/static/overlay_data.json');
+        const data = await response.json();
+
+        // "data.leaderboard" => current session
+        let html = '';
+        data.leaderboard.forEach(player => {
+          html += `<li>${player.rank}. ${player.user} – ${player.damage} Damage</li>`;
+        });
+        document.getElementById('leaderboard-list').innerHTML = html || '<li>No data</li>';
+      } catch (e) {
+        console.error("Error loading current leaderboard:", e);
+      }
+    }
+
+    updateCurrentLeaderboard();
+    setInterval(updateCurrentLeaderboard, 3000);
+  </script>
+</body>
+</html>

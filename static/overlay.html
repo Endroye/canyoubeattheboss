@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Boss Overlay</title>
+  <style>
+    body { 
+      background: transparent;
+      color: white;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding-top: 30px;
+    }
+    #title {
+      font-size: 60px;
+      margin-bottom: 20px;
+    }
+    .boss-info {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+    .boss-bar-container {
+      width: 70%;
+      background-color: rgba(0,0,0,0.6);
+      margin: 0 auto 30px auto;
+      border-radius: 15px;
+      overflow: hidden;
+      height: 35px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .boss-bar {
+      height: 100%;
+      background: linear-gradient(90deg, #ff4d4d, #990000);
+      transition: width 1s ease-in-out;
+    }
+    #leaderboard, #all-time-leaderboard {
+      font-size: 35px;
+      background-color: rgba(0,0,0,0.6);
+      padding: 20px;
+      border-radius: 15px;
+      width: 80%;
+      margin: 20px auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    #leaderboard h2, #all-time-leaderboard h2 {
+      margin-top: 0;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      margin: 10px 0;
+    }
+    /* Neuer Container für Boss-Hintergrund */
+    #boss-background-container {
+      width: 150px;
+      margin: 10px auto;
+    }
+    #boss-background {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="title">Can You Beat The Boss?</h1>
+  
+  <!-- Boss-Hintergrund anzeigen -->
+  <div id="boss-background-container">
+    <img id="boss-background" src="" alt="Boss Background">
+  </div>
+  
+  <div class="boss-info" id="boss-info">HP: --/-- (--)%</div>
+  <div class="boss-bar-container">
+    <div id="boss-hp" class="boss-bar"></div>
+  </div>
+  <div id="leaderboard">Loading current leaderboard...</div>
+  <div id="all-time-leaderboard">Loading all-time stats...</div>
+
+  <script>
+    async function updateOverlay() {
+      try {
+        // Passe die URL an, falls nötig (z.B. "overlay_data.json")
+        const response = await fetch('overlay_data.json');
+        const data = await response.json();
+
+        document.getElementById('title').textContent = data.title;
+
+        // Boss-HP-Balken und Text aktualisieren
+        const currentHP = data.boss.current_hp;
+        const baseHP = data.boss.base_hp;
+        const hpPercent = Math.round((currentHP / baseHP) * 100);
+        document.getElementById('boss-hp').style.width = hpPercent + '%';
+        document.getElementById('boss-info').textContent = `HP: ${currentHP}/${baseHP} (${hpPercent}%)`;
+
+        // Boss-Hintergrund aktualisieren
+        if (data.boss.background) {
+          document.getElementById('boss-background').src = data.boss.background;
+        } else {
+          document.getElementById('boss-background').src = "";
+        }
+
+        // Aktuelles Leaderboard aktualisieren
+        let leaderboardHTML = '<h2>Current Leaderboard</h2><ul>';
+        data.leaderboard.forEach(player => {
+          leaderboardHTML += `<li>${player.rank}. ${player.user} – ${player.damage} Damage</li>`;
+        });
+        leaderboardHTML += '</ul>';
+        document.getElementById('leaderboard').innerHTML = leaderboardHTML;
+
+        // All-Time-Leaderboard aktualisieren
+        let allTimeHTML = '<h2>All-Time Leaderboard</h2><ul>';
+        data.all_time_leaderboard.forEach(player => {
+          allTimeHTML += `<li>${player.rank}. ${player.user} – ${player.damage} Damage</li>`;
+        });
+        allTimeHTML += '</ul>';
+        document.getElementById('all-time-leaderboard').innerHTML = allTimeHTML;
+      } catch (e) {
+        console.error("Error loading overlay:", e);
+      }
+    }
+
+    updateOverlay();
+    setInterval(updateOverlay, 3000);
+  </script>
+</body>
+</html>
