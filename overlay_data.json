@@ -1,31 +1,16 @@
 {
     "title": "Can You Beat The Boss?",
     "boss": {
-        "current_hp": 45,
-        "base_hp": 345,
+        "current_hp": 314,
+        "base_hp": 414,
         "status": "Alive",
-        "background": "backgrounds/boss4.png"
+        "background": "backgrounds/boss5.png"
     },
     "leaderboard": [
         {
             "rank": 1,
-            "user": "\ud83d\udd78\ufe0f",
-            "damage": 200
-        },
-        {
-            "rank": 2,
             "user": "ShelovesJames",
             "damage": 100
-        },
-        {
-            "rank": 3,
-            "user": ".13",
-            "damage": 0
-        },
-        {
-            "rank": 4,
-            "user": "brucesnipz\ud83e\udd6d",
-            "damage": 0
         }
     ],
     "all_time_leaderboard": [
@@ -36,18 +21,18 @@
         },
         {
             "rank": 2,
+            "user": "ShelovesJames",
+            "damage": 300
+        },
+        {
+            "rank": 3,
             "user": "lochlan",
             "damage": 200
         },
         {
-            "rank": 3,
+            "rank": 4,
             "user": "\ud83d\udd78\ufe0f",
             "damage": 200
-        },
-        {
-            "rank": 4,
-            "user": "ShelovesJames",
-            "damage": 100
         },
         {
             "rank": 5,
