@@ -45,7 +45,7 @@ is_running = False
 reconnect_attempts = 0
 recent_attackers = {}
 
-USERNAME = "tanzverbot"
+USERNAME = "lisaistlost"
 STREAMER_USERNAME = "Lee"  # Only this user is allowed to reset the all-time leaderboard
 
 # Liste der verfügbaren Boss-Typen (erweiterbar bis zu 40 Bosse)
