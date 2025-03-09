@@ -16,6 +16,11 @@
             "rank": 2,
             "user": "u_tripping_out",
             "damage": 0
+        },
+        {
+            "rank": 3,
+            "user": "Tomo",
+            "damage": 0
         }
     ],
     "all_time_leaderboard": [
@@ -27,6 +32,11 @@
         {
             "rank": 2,
             "user": "u_tripping_out",
+            "damage": 0
+        },
+        {
+            "rank": 3,
+            "user": "Tomo",
             "damage": 0
         }
     ]
